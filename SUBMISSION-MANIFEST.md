@@ -24,7 +24,10 @@ The optional model-backed path invokes the local `claude` executable in
 The deterministic `--offline` path is used for the captured examples and does
 not require an API key, repository credentials, or wallet access.
 
-## Boundary
+## Submission state (2026-08-02)
 
-This manifest and the implementation are local-only. No `/opire try` comment,
-pull request, push, wallet action, or payment has been performed.
+The implementation branch is pushed to the owner fork as
+`codex/claude-review-bounty` at commit `8534b82`. The GitHub issue comment and
+pull-request creation remain pending because the connected Chrome GitHub page
+returned `ERR_FAILED`; no wallet, payment credential, or private token was
+used.
