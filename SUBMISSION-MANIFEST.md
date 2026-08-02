@@ -27,7 +27,9 @@ not require an API key, repository credentials, or wallet access.
 ## Submission state (2026-08-02)
 
 The implementation branch is pushed to the owner fork as
-`codex/claude-review-bounty` at commit `8534b82`. The GitHub issue comment and
-pull-request creation remain pending because the connected Chrome GitHub page
-returned `ERR_FAILED`; no wallet, payment credential, or private token was
-used.
+`codex/claude-review-bounty` at commit `fdfd362`. The authorized `/opire try`
+comment is posted on issue #4 and pull request
+[#3662](https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3662)
+is open against `claude-builders-bounty:main`; it has no merge conflicts and
+currently has no checks configured. No wallet, payment credential, or private
+token was used.
